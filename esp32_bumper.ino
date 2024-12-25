@@ -16,7 +16,7 @@ const char* authorization = "USER TOKEN"; // Can't be BOT token, must be user to
 const unsigned long WIFI_TIMEOUT = 20000;  // 20 seconds timeout for WiFi connection
 const int MAX_WIFI_RETRIES = 5;           // Maximum number of WiFi reconnection attempts
 const unsigned long HTTP_TIMEOUT = 10000;  // 10 seconds timeout for HTTP requests
-const unsigned long BUMP_INTERVAL = 7210000; // ~2 hours between bumps
+const unsigned long BUMP_INTERVAL = 7210000; // 2 hours and 10 seconds between bumps
 const int MAX_HTTP_RETRIES = 3;           // Maximum number of HTTP request retries
 
 // Global variables for state management
